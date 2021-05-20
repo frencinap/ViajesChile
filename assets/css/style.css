@@ -1,0 +1,29 @@
+/* Caracterisiticas generales */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.navbar{
+    color: TuColor #00AAE4 !important;    
+}
+
+/* Fuentes */
+.prompt-light {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+
+.prompt-medium {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+}
+
+.full {
+    width: 100%;
+}
