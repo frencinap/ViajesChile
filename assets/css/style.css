@@ -7,11 +7,29 @@ body {
     margin: 0;
     border: 0;
     padding: 0;
+    background-color: black;
 }
 
-.navbar{
-    color: TuColor #00AAE4 !important;    
+hr {
+    height: 0.035rem;
+    background-color: #00AAE4 ;
 }
+
+footer {
+    background-color: #00AAE4;
+    padding: 0.5rem;
+    color: white;
+}
+
+footer i{
+    padding-right: 1rem;
+}
+
+
+
+/* .navbar{
+    color: TuColor #00AAE4 !important;    
+} */
 
 /* Fuentes */
 .prompt-light {
@@ -24,6 +42,22 @@ body {
     font-weight: 500;
 }
 
-.full {
+.form {
+    padding: 1rem;
+}
+
+/* .full {
     width: 100%;
+} */
+
+#quienes {
+    padding-bottom: 4rem;
+}
+
+#destacados {
+    padding-bottom: 4rem;
+}
+
+#contacto {
+    padding-bottom: 4rem;
 }
