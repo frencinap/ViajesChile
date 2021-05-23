@@ -23,7 +23,7 @@
     <body>
 
         <!-- Navegador -->
-        <nav class="navbar navbar-expand-lg navbar-dark rale-light px-5" style="background-color: #239DBF;">
+        <nav class="navbar navbar-expand-lg navbar-dark rale-light px-5 sticky-top" style="background-color: #239DBF;">
             <a class="navbar-brand text-white" href="#">
                 <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Viajes Chile
@@ -63,7 +63,8 @@
             </a>
         </div>
         <!-- Seccion Quienes somos -->
-        <div class="container" id="quienes">
+        <div class="container d-none d-lg-block" id="quienes">
+            <!-- Use h2 en todas las secciones solo por una cuestion de tamaño -->
             <h2 class="rale-medium text-center text-white">¿Quiénes somos?</h2>
             <hr>
             <div class=" row">
@@ -98,35 +99,35 @@
             <h2 class="rale-medium text-center text-white">Destacados</h2>
             <hr>
             <div class="row justify-content-center">
-                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2" id="card">
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 my-2" id="card">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="card 1">
                     <div class="card-body rale-light" id="cuerpo">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Lugar 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus consectetur delectus ipsum inventore molestiae. Incidunt mollitia rem natus voluptas laborum vel ratione, quaerat magnam odit iusto tenetur deserunt velit?</p>
 
                     </div>
                 </div>
-                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2" id="card">
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 my-2" id="card">
                     <img src="assets/img/card2.jpg" class="card-img-top ajuste" alt="card 2">
                     <div class="card-body rale-light" id="cuerpo">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Lugar 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis, labore placeat, quasi nemo corporis, laboriosam totam deserunt ullam minima doloribus! Tempore ad voluptates minima dignissimos commodi? Nesciunt, iste? Ducimus?</p>
 
                     </div>
                 </div>
-                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2" id="card">
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 my-2" id="card">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="card 3">
                     <div class="card-body rale-light" id="cuerpo">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Lugar 3</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, id necessitatibus est debitis totam quidem deleniti nam quaerat quas perspiciatis mollitia excepturi sit fugiat fugit sint sed laudantium eaque optio.</p>
 
                     </div>
                 </div>
-                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2" id="card">
+                <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 my-2" id="card">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="card 4">
                     <div class="card-body rale-light" id="cuerpo">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Lugar 4</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eum hic veniam inventore! Perferendis, natus perspiciatis voluptatum consequatur quibusdam delectus qui. Accusamus ipsa quis quidem dolores sunt ipsam incidunt quo.</p>
                     </div>
                 </div>
             </div>
@@ -164,10 +165,11 @@
                 <h5>VIAJES CHILE</h5>
             </div>
             <div class="col text-center">
-                <i class="fab fa-github-square fa-2x"></i>
-                <i class="fab fa-linkedin fa-2x"></i>
-                <i class="fab fa-twitter-square fa-2x"></i>
-                <i class="fab fa-facebook-square fa-2x"></i>
+                
+                <i class="fab fa-github-square fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en GitHub"></i>
+                <i class="fab fa-linkedin fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en LinkedIn"></i>
+                <i class="fab fa-twitter-square fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en Twitter"></i>
+                <i class="fab fa-facebook-square fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en Facebook"></i>
             </div>
         </footer>
 
@@ -176,5 +178,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        <!-- Script propio -->
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
