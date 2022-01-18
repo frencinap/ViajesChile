@@ -1,4 +1,3 @@
-/* Caracterisiticas generales */
 html {
     scroll-behavior: smooth;
 }
@@ -8,6 +7,7 @@ body {
     border: 0;
     padding: 0;
     background-color: black;
+    color: white;
 }
 
 hr {
@@ -15,25 +15,26 @@ hr {
     background-color: #239DBF ;
 }
 
-footer {
+.footer {
     background-color: #239DBF;
-    padding: 0.5rem;
-    color: white;
+    width: 100%;
+    padding: 1rem;
 }
-
-footer i{
-    padding-right: 1rem;
+.footer-title{
+    vertical-align: middle;
+    width: 50%;
+}
+.icons{
+    padding-left: 10rem;
 }
 
 h4 {
     background-color: #239DBF;
-    color: white;
 }
 
-h5 {
-    padding:0;
+i{
+    margin: 0 2rem 0 0;
 }
-
 
 /* Fuentes */
 .rale-light {
@@ -55,6 +56,10 @@ h5 {
     height: 7.918rem;
 }
 
+.btn{
+    background-color: #239DBF !important;
+    color: white;
+}
 
 
 #quienes {
@@ -66,9 +71,6 @@ h5 {
     padding-bottom: 4rem;
 }
 
-#contacto {
-    padding-bottom: 4rem;
-}
 
 #card {
     

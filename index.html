@@ -21,10 +21,9 @@
 
     </head>
     <body>
-
         <!-- Navegador -->
         <nav class="navbar navbar-expand-lg navbar-dark rale-light px-5 sticky-top" style="background-color: #239DBF;">
-            <a class="navbar-brand text-white" href="#">
+            <a class="navbar-brand" href="#">
                 <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 Viajes Chile
             </a>
@@ -65,7 +64,7 @@
         <!-- Seccion Quienes somos -->
         <div class="container d-none d-lg-block" id="quienes">
             <!-- Use h2 en todas las secciones solo por una cuestion de tamaño -->
-            <h2 class="rale-medium text-center text-white">¿Quiénes somos?</h2>
+            <h2 class="rale-medium text-center">¿QUIÉNES SOMOS?</h2>
             <hr>
             <div class=" row">
 
@@ -73,12 +72,12 @@
                     <h4 class="text-center">
                         <i class="fas fa-plane"></i>
                     </h4>
-                    <p class="rale-light text-white">
+                    <p class="rale-light">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum reiciendis cupiditate corrupti unde magnam omnis aliquid, fuga at beatae. Culpa veritatis explicabo est sunt eligendi. Sunt tenetur iste minus assumenda.
                     </p>
                 </div>
                 <div class="container col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <p class="rale-light text-white">
+                    <p class="rale-light">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero odit amet ipsam voluptate, aliquid, dolore maxime ratione aperiam sapiente eligendi quaerat porro. Quas eligendi dignissimos voluptas nostrum, similique perferendis quibusdam.</p>
                     <h4 class="text-center">
                         <i class="fas fa-mountain"></i>
@@ -88,7 +87,7 @@
                     <h4 class="text-center">
                         <i class="fas fa-route"></i>
                     </h4>
-                    <p class="rale-light text-white">
+                    <p class="rale-light">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor officia quisquam dolore, earum a nemo dignissimos voluptatum aliquid vel! Explicabo laborum repudiandae libero, cumque repellat nostrum voluptatibus eos facere sint.</p>
                 </div>
 
@@ -96,7 +95,7 @@
         </div>
         <!-- Seccion Destacados -->
         <div class="container" id="destacados">
-            <h2 class="rale-medium text-center text-white">Destacados</h2>
+            <h2 class="rale-medium text-center">DESTACADOS</h2>
             <hr>
             <div class="row justify-content-center">
                 <div class="card col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 my-2" id="card">
@@ -133,47 +132,32 @@
             </div>
         </div>
         <!-- Seccion Typeform contacto -->
-        <div class="container" id="contacto">
-            <h2 class="prompt-medium text-center text-white">Contacto</h2>
+        <div class="container mb-5" id="contacto">
+            <h2 class="rale-medium text-center">CONTACTO</h2>
             <hr>
-            <div class="typeform-widget form" data-url="https://form.typeform.com/to/SEP5Nar3?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
-            <script>
-                (function () {
-                    var qs,
-                        js,
-                        q,
-                        s,
-                        d = document,
-                        gi = d.getElementById,
-                        ce = d.createElement,
-                        gt = d.getElementsByTagName,
-                        id = "typef_orm",
-                        b = "https://embed.typeform.com/";
-                    if (! gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })()
-            </script>
+            <form>
+                <label for="exampleFormControlInput1" class="rale-light">Nombre</label>
+                <input class="form-control mb-1" type="text">
+                <label for="exampleFormControlInput1" class="rale-light">Asunto</label>
+                <input class="form-control mb-1" type="text">
+                <label for="exampleFormControlInput1" class="rale-light">Mensaje</label>
+                <textarea class="form-control mb-1" id="exampleFormControlTextarea1" rows="4"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+              </form>
         </div>
         <!-- Footer pagina -->
-        <footer class="row">
-            <div class="col text-white text-center rale-medium">
-                <h5>VIAJES CHILE</h5>
+        <div class="d-flex justify-content-center footer">
+            <div class="footer-title">
+                <h5 class="rale-medium">VIAJES CHILE</h5>
             </div>
-            <div class="col text-center">
-                
+            <div class="icons">
                 <i class="fab fa-github-square fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en GitHub"></i>
                 <i class="fab fa-linkedin fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en LinkedIn"></i>
                 <i class="fab fa-twitter-square fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en Twitter"></i>
                 <i class="fab fa-facebook-square fa-2x" data-toggle="tooltip" data-placement="top" title="Visitanos en Facebook"></i>
             </div>
-        </footer>
-
-
+        </div>
+ 
         <!-- Scripts Bootstrap 4.6.0 -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
