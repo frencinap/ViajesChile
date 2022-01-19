@@ -25,7 +25,9 @@ hr {
     width: 50%;
 }
 .icons{
-    padding-left: 10rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: row;
 }
 
 h4 {
@@ -51,9 +53,9 @@ i{
     padding: 1rem;
 }
 
-/* La segunda imagen de la seccion Destacados era ligeramente mas alta */
-.ajuste {
-    height: 7.918rem;
+
+.card-img-top {
+    max-height: 7.5rem;
 }
 
 .btn{
@@ -72,19 +74,27 @@ i{
 }
 
 
-#card {
-    
+#card { 
     padding: 0;
-    margin-right: 2rem;
     border: 0;
-    background-color: #239DBF;
-    
+    background-color: #239DBF;   
 }
+
+@media (min-width: 992px) {
+    #card{
+        max-width: 24%;
+        min-width: 24%;
+    }
+}
+@media (max-width: 576px) { 
+    #card{
+        max-width: 90%;
+    }
+ }
 
 #cuerpo {
     padding: 0.5rem;
     margin: 0;
     border: 0;
     text-align: left;
-    color: whitesmoke;
 }
